@@ -78,7 +78,23 @@
         text-decoration: underline;
     }
 }
+.games{
+display: flex;
+justify-content: center;
+flex-direction: row;
+padding: 15px;
+gap: 25px;
 
+}
+
+.game-content> a{
+    color: var(--text-white);
+    background-color: black;
+    border-radius: 32px;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 16px;
+}
 
 .benefit-grid{
     display: grid;
