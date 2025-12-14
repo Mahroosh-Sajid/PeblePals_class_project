@@ -155,3 +155,35 @@ gap: 25px;
     border-radius: 128px 128px 0px 0px;
 }
 
+.game-container{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 25px;
+padding: 15px;
+}
+
+.label {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.game-roots{
+  background-color: rgba(250, 251, 234, 0.874); 
+  border-radius: 10px 10px 15px 15px;
+  
+}
+.game-wrap{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 25px;
+padding: 15px;
+}
+
