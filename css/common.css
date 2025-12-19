@@ -48,8 +48,7 @@ body {
     color: var(--text-black);
 
 }
-.main-content{
-   
+  .main-content{
     flex: 1;
 }
 
@@ -63,6 +62,7 @@ body {
     margin: 32px;
     position: relative;
 }
+
 .nav-link{
     font-size: var(--f-u-6);
     font-weight: 800;
@@ -79,6 +79,7 @@ body {
     display: flex;
     gap: 32px;
 }
+
 .logo{
     position: absolute;
     left: 32px;
