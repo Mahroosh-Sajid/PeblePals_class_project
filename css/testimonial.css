@@ -57,16 +57,18 @@
   font-size: 0.85rem;
   color:black;
   text-decoration: underline;
+  margin-bottom: 50px;
   }
 }
-
 .form-bubble {
   background: white;
-  border-radius: 30px;
+  border-radius: 100px;
   padding: 20px;
   margin: 50px auto 0;
-  width: 420px;
+  width: 650px;
   color: black;
+  font-size: 20px;
+ 
 }
 
 .form-bubble input {
@@ -86,12 +88,6 @@ button {
   border-radius: 20px;
   cursor: pointer;
 }
-
-button:hover {
-  background: #257fa0be
-}
-
-
 
 .main-footer{
     background: url(../assets/footer_bg.png) center/cover no-repeat;
