@@ -85,27 +85,39 @@
                         <h6> Walking My pet rock every day has been great exercise</h6>
                     </div>
                 </div>
-                <div class="form-bubble">
+                <form class="form-bubble">
                     <!-- form bubble will use FORM tag -->
                     <!-- stars are actually radio input, each radio is inside of label, then you hide the actual input and display an image for it instead -->
                     <!-- make them the black star by default. then you can use all next sibling selector in css to select alk radios after the selected ones and make them black -->
                     <p>Rate us:
                         <label>
-                            <input type="radio" name="colour" value="star_black.svg">
-                            <input type="radio" name="colour" value="star_yellow.svg">
-                            <input type="radio" name="color" value="star_yellow.svg">
+                            <input type="radio" name="rating" value="1">
                             <img src="assets/star_yellow.svg" alt="star">
+                        </label>
+                        <label>
+                            <input type="radio" name="rating" value="2">
                             <img src="assets/star_yellow.svg" alt="star">
+                        </label>
+                        <label>
+                            <input type="radio" name="rating" value="3">
                             <img src="assets/star_yellow.svg" alt="star">
+                        </label>
+                        <label>
+                            <input type="radio" name="rating" value="4">
                             <img src="assets/star_black.svg" alt="star">
+                        </label>
+                        <label>
+                            <input type="radio" name="rating" value="5">
                             <img src="assets/star_black.svg" alt="star">
+                        </label>
+                        
                     </p>
                     <p>Message:</p>
                     <input type="text" placeholder="Message" value="Rock solid!">
                     <p>your Name</p>
                     <input type="text" placeholder="Your Name" value="Goob">
                     <button>Send</button>
-                </div>
+                </form>
             </div>
 
         </section>
