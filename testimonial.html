@@ -88,35 +88,39 @@
                 <form class="form-bubble">
                     <!-- form bubble will use FORM tag -->
                     <!-- stars are actually radio input, each radio is inside of label, then you hide the actual input and display an image for it instead -->
-                    <!-- make them the black star by default. then you can use all next sibling selector in css to select alk radios after the selected ones and make them black -->
-                    <p>Rate us:
-                        <label>
-                            <input type="radio" name="rating" value="1">
+                    <!-- make them the yellow star by default. then you can use all next sibling selector in css to select alk radios after the selected ones and make them black -->
+                    <div class="stars">
+                        <h4>Rate us:</h4>
+                        <label class="star">
+                            <input type="radio" name="rating" value="1"> 
                             <img src="assets/star_yellow.svg" alt="star">
                         </label>
-                        <label>
+                        <label class="star">
                             <input type="radio" name="rating" value="2">
                             <img src="assets/star_yellow.svg" alt="star">
                         </label>
-                        <label>
+                        <label class="star">
                             <input type="radio" name="rating" value="3">
                             <img src="assets/star_yellow.svg" alt="star">
                         </label>
-                        <label>
+                        <label class="star">
                             <input type="radio" name="rating" value="4">
-                            <img src="assets/star_black.svg" alt="star">
+                            <img src="assets/star_yellow.svg" alt="star">
                         </label>
-                        <label>
-                            <input type="radio" name="rating" value="5">
-                            <img src="assets/star_black.svg" alt="star">
+                        <label class="star">
+                         <input type="radio" name="rating" value="5">
+                            <img src="assets/star_yellow.svg" alt="star">
                         </label>
-                        
-                    </p>
-                    <p>Message:</p>
+                    </div>
+                    <div class="str">
+                    <h4>Message:</h4>
                     <input type="text" placeholder="Message" value="Rock solid!">
-                    <p>your Name</p>
+                </div>
+                    <div class="st">
+                    <h4>Your Name:</h4>
                     <input type="text" placeholder="Your Name" value="Goob">
                     <button>Send</button>
+                </div>
                 </form>
             </div>
 
