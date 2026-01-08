@@ -92,7 +92,25 @@ body{
   >h4{
     text-decoration:underline ;
   }
+
+
+ 
 }
+.star{
+  background-image: url(../assets/star_yellow.svg);
+  height: 14px;
+  width: 14px;
+  background-position: center;
+
+  > input{
+    display: none;
+  }
+}
+.star:has(input:checked) ~.star{
+  background-image: url(../assets/star_black.svg);
+  
+}
+
 
 .st{
   display: flex;
@@ -103,9 +121,6 @@ body{
   >label img{
     width: 24px;
     cursor: pointer;
-  }
-  >label input:checked ~ img{
-    content: url(../assets/star_black.svg);
   }
 }
 
